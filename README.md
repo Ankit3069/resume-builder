@@ -5,4 +5,4 @@
   <p align="center"> Open-Source CV and Portfolio </p>
 </p> 
 
-CV Builder Online is a open-Source Portfolio and CV template Resource Hub. Don't Pay money for make Your CV , CODE or Design  it!! 
+CV Builder Online is a open-Source Portfolio and CV template  
