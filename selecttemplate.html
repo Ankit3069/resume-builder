@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.getstarted {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.getstarted:hover{
+    background-color: #3498db;
+    color: white;
+}
+
+.template{
+    margin-top: 55px;
+    margin-left: 40px;
+    display: flex;
+
+}
+
+
+#hero img {
+    /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
+    animation: mymove 5s infinite;
+  animation-timing-function: linear;
+  position: relative;
+  
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 80px;}
+}
+
+h1{
+    margin-left: 150px;
+    margin-top: 65px !important;
+}
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-6">
+                <h1>Select Templates</h1>
+                <div class="template">
+                    <div class="temp1">
+                        <a class="getstarted scrollto" href="Traditional.html">Traditional Resume</a>
+                        <div class="para">
+                            <!-- <p>The traditional CV template will allow you to finish your job <br>
+                            
+                                application within minutes, focusing on the essential sections</p> -->
+                            
+                        </div>
+                    </div>
+                    
+                
+                <div class="para">
+                    <a class="getstarted scrollto" href="simple.html">Simple Resume</a>
+                    <!-- <p>A basic Curriculum Vitae (CV) layout that can be used in both classic and creative industries. <br>
+                        It can be easily personalized for whichever industry you are applying for.</p> -->
+                </div>
+                   
+                <!-- <div class="para">
+                    <a class="getstarted scrollto" href="selecttemplate.html">teacher Resume</a>
+                </div> -->
+                   
+                
+                </div>
+            </div>
+
+            <div class="col-6" id="hero" >
+                <img src="resume.png" class="img-fluid animated" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>

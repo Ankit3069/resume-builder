@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Document</title>
+
+    <style>
+        .container{
+
+background-color: white;
+border: 2px solid rgb(232,232,232)!important;;
+border-radius: 5px;
+padding: 25px;
+box-shadow: 0 4px 4px rgba(0,0,0,0.08), 
+              0 10px 10px rgba(0,0,0,0.12), 
+              0 10px 10px rgba(0,0,0,0.16), 
+              0 9px 9px rgba(0,0,0,0.20);
+}
+.btn1{
+  width:100px;
+  height:50px;
+
+}
+.one{
+    margin-top: 15px;
+}
+.text1{
+    width:85%;
+    margin-left: 110px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+    </style>
+</head>
+<body>
+    <div class="p-2 mb-2 bg-dark text-white text1">
+        <h3>Education Information</h3>
+        
+    </div>
+    <form method="post" action="form.html">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-6">
+                        <label for="name" class="form-label mt-1">College Name</label>
+                        <input type="text" class="form-control " name="collgename">
+
+                        <label for="name" class="form-label mt-1">University</label>
+                        <input type="text" class="form-control " name="university">
+
+                        <label for="name" class="form-label mt-1">Degree</label>
+                        <input type="text" class="form-control " name="degree">
+                    </div>
+
+                    <div class="col-6">
+                        <label for="name" class="form-label mt-1">Percentage</label>
+                        <input type="text" class="form-control " name="percentage">
+
+                        <label for="name" class="form-label mt-1">Grade</label>
+                        <input type="text" class="form-control " name="grade">
+
+                        <label for="name" class="form-label mt-1">passing year</label>
+                        <input type="number" class="form-control " name="passingyear">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container one">
+        <div class="row ">
+          <div class="col-12">
+            <a href="form.html"><button type="button" class=" btn1 btn btn-warning mx-5">Back</button>
+            </a>
+            
+            <a href="workexperience.html"><button type="button" class=" btn1 btn btn-success w-40">Next</button> </a>
+        
+          </div>
+        </div>
+        <div class="row col-4 mt-4 ">
+            <input class="btn btn-warning mx-35" type="submit" value="Register" />      
+          </div>
+      </div>
+    </form>
+
+</body>
+</html>
